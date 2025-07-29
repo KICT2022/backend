@@ -1,0 +1,51 @@
+### 기본 무시 ###
+HELP.md
+.DS_Store
+
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Java ###
+*.class
+*.jar
+*.war
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### VS Code ###
+.vscode/
+
+### OS ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### 로그 파일 ###
+*.log
+
+### 테스트 빌드 디렉토리 무시 ###
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### 환경 설정 / 민감 정보 ###
+.env
+application-secret.yml
+application-local.yml
+application-dev.yml
