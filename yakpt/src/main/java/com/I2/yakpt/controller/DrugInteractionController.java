@@ -22,9 +22,6 @@ public class DrugInteractionController {
         if (rawMessage == null || rawMessage.isBlank()) {
             return "약물 이름을 입력해주세요.";
         }
-        else {
-            String userPrompt = rawMessage.trim() + "에 대한 상호작용을 말해줘.";
-        }
 
         List<String> drugList = Arrays.stream(rawMessage.split(","))
                 .map(String::trim)
