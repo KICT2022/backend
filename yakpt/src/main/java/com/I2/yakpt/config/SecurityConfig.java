@@ -37,7 +37,10 @@ public class SecurityConfig {
                                 "/swagger-ui.html",
                                 "/v3/api-docs/**",
                                 "/h2-console/**",
+                                "/api/openai/**",
                                 "/facivon.ico",
+                                "/chat",
+                                "/chat/drug-info",
                                 "/error") // H2 콘솔 경로 접근 허용
                         .permitAll()
                         .anyRequest().authenticated()) // 그 외 모든 요청은 인증 필요

@@ -49,3 +49,5 @@ Desktop.ini
 application-secret.yml
 application-local.yml
 application-dev.yml
+
+secret/
